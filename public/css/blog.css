@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-align-items-center {
+    align-items: center
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 980px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h2 a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* menu */
+.menu {
+    min-height: 35px;
+    width: 100%;
+    border-bottom: dashed 1px #c2c2c2;
+}
+
+.menu-list li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.menu-list li a {
+    text-decoration: none;
+}
+
+.menu-list li a:hover {
+    text-decoration: underline;
+}
+
+.page h3 {
+    margin-bottom: 5px;
+}
+
+.author, .date {
+    font-style: italic;
+}
+
+.news {
+    border-bottom: dashed 1px #c2c2c2;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.content {
+    border-bottom: solid 1px #efefef;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.content p {
+    line-height: 1.5rem;
+}
+
+.blog-action a {
+    font-size: 0.9rem;
+    display: inline-block;
+    padding: 0 5px;
+    color: #000;
+}
+
+.new-blog a {
+    margin-top: 15px;
+    color: #ff5722;
+    font-style: italic;
+}
+
+.form-field {
+    margin-bottom: 5px;
+}
+
+.form-field label {
+    display: block;
+}
+
+.form-field input,
+.form-field textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+.form-field button {
+    cursor: pointer;
+    background-color: #e7e7e7;
+    padding: 5px;
+    border: solid 1px #ccc;
+}
